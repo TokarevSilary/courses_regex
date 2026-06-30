@@ -13,13 +13,13 @@ test("regex negative", ()=>{
     expect(result).toBe(false);
 })
 
-test("regex negative", ()=>{
+test("regex 4 letters", ()=>{
     const nickname = "Jav_Scri234pt";
     const result = new Validator().validateUsername(nickname);
     expect(result).toBe(false);
 })
 
-test("regex negative", ()=>{
+test("regex use wrong ending", ()=>{
     const nickname = "Jav_Scri23pt_";
     const result = new Validator().validateUsername(nickname);
     expect(result).toBe(false);
