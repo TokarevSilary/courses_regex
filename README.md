@@ -1,0 +1,1 @@
+![icon of test](https://github.com/TokarevSilary//courses_regex/actions/workflows/ci.yml/badge.svg)
